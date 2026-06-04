@@ -1,5 +1,6 @@
 # PillReminder
 Jednostavna Aplikacija MojaTerapija, da nikada ne zaboravite na svoje lijekove. 
+
 Funkcije:
 * Neograničen broj lijekova,
 * Više opcija ponavljanja,
@@ -26,4 +27,5 @@ Features:
 * Rest mode,
 
 Localization: EN, BS, HR, SR
+------------------------------------------------------------------
 
