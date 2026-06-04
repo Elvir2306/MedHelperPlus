@@ -10,7 +10,10 @@ Funkcije:
 * Historija uzimanja,
 * Skočni prozor za podsjetnike, 
 * Automatsko utišavanje tokom poziva,
-* Režim odmora, 
+* Režim odmora,
+* Bez reklama,
+* Bez pretplate,
+* Potpuno besplatno!
 
 Lokalizacija: EN, BS, HR, SR
 ---------------------------------------------------------------
@@ -25,6 +28,9 @@ Features:
 * Pop-up window for reminders,
 * Automatic mute during calls,
 * Rest mode,
+* No ADS,
+* No Subscriptions,
+* Total Free!
 
 Localization: EN, BS, HR, SR
 ------------------------------------------------------------------
