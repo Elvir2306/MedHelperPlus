@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script 
+  src="https://www.paypal.com/sdk/js?client-id=BAAEKjnfOzw4Gq60Ss_5PKgQnw6toIivzJGcqlK6_TtrODv8c3cQ74-0Wp8WFScGHuWIrnoxk3kPQ3hj48&components=hosted-buttons&disable-funding=venmo&currency=USD">
+</script>
     <title>About Us</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -47,7 +50,12 @@
                 <div class="value-card">
                     <div class="icon">🚀</div>
                     <h3>Impact</h3>
-                    <p>We are results-oriented, ensuring every line of code or strategy leaves a measurable impact.</p>
+                    <p><div id="paypal-container-A3H9KV9C3XPRW"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "A3H9KV9C3XPRW",
+  }).render("#paypal-container-A3H9KV9C3XPRW")
+</script></p>
                 </div>
             </div>
         </div>
