@@ -50,12 +50,28 @@
                 <div class="value-card">
                     <div class="icon">🚀</div>
                     <h3>Impact</h3>
-                    <p><div id="paypal-container-A3H9KV9C3XPRW"></div>
+                    <div id="paypal-button-container-P-08J7632092073881FNKOCESY"></div>
+<script src="https://www.paypal.com/sdk/js?client-id=AZuMALboSUPRlbeHt-1nlU0tdgApJVUAXPwa5w1AN48QdeReCO3Fw7SDYqNwa6ha8QBFPLDG4wks6VYz&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
 <script>
-  paypal.HostedButtons({
-    hostedButtonId: "A3H9KV9C3XPRW",
-  }).render("#paypal-container-A3H9KV9C3XPRW")
-</script></p>
+  paypal.Buttons({
+      style: {
+          shape: 'rect',
+          color: 'blue',
+          layout: 'vertical',
+          label: 'paypal'
+      },
+      createSubscription: function(data, actions) {
+        return actions.subscription.create({
+          /* Creates the subscription */
+          plan_id: 'P-08J7632092073881FNKOCESY'
+        });
+      },
+      onApprove: function(data, actions) {
+        alert(data.subscriptionID); // You can add optional success message for the subscriber here
+      }
+  }).render('#paypal-button-container-P-08J7632092073881FNKOCESY'); // Renders the PayPal button
+</script>
+</form>
                 </div>
             </div>
         </div>
