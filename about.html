@@ -1,22 +1,63 @@
+<style>
+table.paleBlueRows {
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid #FFFFFF;
+  width: 350px;
+  height: 200px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid #FFFFFF;
+  padding: 3px 2px;
+}
+table.paleBlueRows tbody td {
+  font-size: 13px;
+}
+table.paleBlueRows thead {
+  background: #0B6FA4;
+  border-bottom: 5px solid #FFFFFF;
+}
+table.paleBlueRows thead th {
+  font-size: 17px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #FFFFFF;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
 
-                    <div id="paypal-button-container-P-08J7632092073881FNKOCESY"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AZuMALboSUPRlbeHt-1nlU0tdgApJVUAXPwa5w1AN48QdeReCO3Fw7SDYqNwa6ha8QBFPLDG4wks6VYz&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'blue',
-          layout: 'vertical',
-          label: 'paypal'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-08J7632092073881FNKOCESY'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-08J7632092073881FNKOCESY'); // Renders the PayPal button
-</script>
+table.paleBlueRows tfoot td {
+  font-size: 14px;
+}
+</style>
+<table class="paleBlueRows">
+<thead>
+<tr>
+<th>Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="justify">Kreirali smo aplikacije jednostavne za korištenje koje omogućavaju ljudima svih dobnih skupina da koriste i upravljaju svojim lijekovima.
+
+Dodajte broj lijekova, tableta i dodataka prehrani koje morate popuniti. Aplikacija ima dovoljno prostora da popuni sve vaše potrebe za lijekovima.
+
+Dodajte nove lijekove sa svim potrebnim detaljima, kao što su vrste lijekova, broj tableta, vrijeme uzimanja, učestalost uzimanja itd.
+
+Postavite podsjetnike za svaki lijek zasebno kako bi vas aplikacija podsjetila da uzimate lijekove tačno i na vrijeme.
+
+Aplikacija vas obavještava u tačno vrijeme kako biste mogli uzimati lijekove ili doze bez greške. Možete ih odgoditi ako želite ili morate.
+
+Dobijte detaljan izvještaj o pridržavanju uzimanja lijekova kako biste pratili svoje performanse, na primjer, da li ste propustili ili odgodili neki lijek.
+
+PillQ ne samo podsjeća - on prati. Dobijte uvide u stvarnom vremenu, izvještaje o pridržavanju i obrasce koje možete podijeliti s ljekarima ili njegovateljima.
+
+Ako ste propustili dozu, aplikacija vam omogućava da označite svoj izbor jednim dodirom, pa čak i da je promijenite u vrijeme koje vam odgovara.
+
+Ne samo upozorenja u određeno vrijeme. PillQ se prilagođava vašem rasporedu, lijekovima i preferencijama - osiguravajući da vas podsjećaju na pravi put.</td>
+</tr>
+</tbody>
+</table>
