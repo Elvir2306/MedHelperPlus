@@ -57,7 +57,23 @@ PillQ ne samo podsjeća - on prati. Dobijte uvide u stvarnom vremenu, izvještaj
 
 Ako ste propustili dozu, aplikacija vam omogućava da označite svoj izbor jednim dodirom, pa čak i da je promijenite u vrijeme koje vam odgovara.
 
-Ne samo upozorenja u određeno vrijeme. PillQ se prilagođava vašem rasporedu, lijekovima i preferencijama - osiguravajući da vas podsjećaju na pravi put.</td>
+Ne samo upozorenja u određeno vrijeme. PillQ se prilagođava vašem rasporedu, lijekovima i preferencijama - osiguravajući da vas podsjećaju na pravi put.<br/>
+<h2 id="demo"></h2>
+
+<script>
+setInterval(showTime, 1000);
+
+function showTime() {
+  const date = new Date();
+  myDisplayer(date.toLocaleTimeString());
+}
+
+// Function to display any text
+function myDisplayer(text) {
+  let demo = document.getElementById("demo"); 
+  demo.innerHTML = text;
+}
+</script></td>
 </tr>
 </tbody>
 </table>
