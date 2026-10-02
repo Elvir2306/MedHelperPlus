@@ -6,7 +6,7 @@ Koje su to sličnosti a koje razilke u odnosu na druge aplikacije, šta su naši
 
 Više detalja o aplikaciji na: https://medhelper.free.je
 
-Besplatno preuzmite aplikaciju na: https://medhelper.free.je/download.php
+Besplatno preuzmite aplikaciju na: https://medhelper.free.je/downloads.php
 
 ------------------------
 
